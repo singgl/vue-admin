@@ -1,0 +1,5 @@
+export { default as AppMain } from '@/layout/AppMain'
+export { default as Header } from '@/layout/Header'
+export { default as Menubar } from '@/layout/AsiderMenu'
+export { default as Footer } from '@/layout/Footer'
+export { default as Setting } from '@/layout/Setting'
