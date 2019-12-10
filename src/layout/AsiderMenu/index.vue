@@ -48,7 +48,7 @@
       </el-menu-item>
     </el-menu>
     </div>
-    <div class="Reversal">
+    <div class="Reversal" @click="Reversal">
       <i :class="isReversal ? 'el-icon-s-fold':'el-icon-s-unfold'"></i>
     </div>
   </div>
@@ -62,6 +62,11 @@ export default {
   },
   computed: {
 
+  },
+  methods: {
+    Reversal () {
+      this.isReversal = !this.isReversal
+    }
   }
 }
 </script>
